@@ -9,31 +9,27 @@
 
         <TextView
             android:layout_width="match_parent"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
             android:text="@string/titulo"
             android:layout_height="20dp"
             android:id="@+id/title_titulo_da_tarefa"
             app:layout_constraintBottom_toTopOf="@id/edittext_titulo_da_tarefa"
 
             />
-        <EditText
 
+        <EditText
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:id="@+id/edittext_titulo_da_tarefa"
             app:layout_constraintTop_toBottomOf="@id/title_titulo_da_tarefa"
 
             />
-
-
-        <EditText
-
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:id="@+id/edittext_titulo_do_botao"
-            app:layout_constraintTop_toBottomOf="@id/title_titulo_da_tarefa"
-
-            />
         <TextView
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
             android:text="@string/desc"
             android:layout_width="match_parent"
             android:layout_height="20dp"
@@ -46,6 +42,8 @@
 
             />
         <EditText
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:id="@+id/edittext_descricao_da_tarefa"
@@ -54,12 +52,17 @@
 
             />
         <Button
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
             android:text="@string/selecione_data"
             android:id="@+id/select_date"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:layout_constraintTop_toBottomOf="@id/edittext_descricao_da_tarefa"/>
         <Button
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/salvar"
             android:text="@string/salvar"
             android:layout_width="match_parent"
             android:layout_height="0dp"
